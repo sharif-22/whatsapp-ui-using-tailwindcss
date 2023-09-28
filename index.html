@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WhatsApp UI - Tailwind CSS</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/WhatsApp-icon.png"
+      type="image/x-icon"
+    />
     <!-- Tailwind css output -->
     <link rel="stylesheet" href="./assets/css/output.css" />
   </head>
@@ -71,14 +76,17 @@
           </svg>
           <ol class="flex-1 flex justify-between px-4">
             <!-- chats -->
-            <a href="./index.html">
-              <li class="uppercase cursor-pointer font-medium text-lg">
+            <li class="uppercase cursor-pointer font-medium text-lg relative">
+              <a href="./index.html">
                 <span>chats</span>
                 <span class="rounded-full bg-white text-emerald-800 px-2 ml-1"
                   >4</span
                 >
-              </li>
-            </a>
+              </a>
+
+              <!-- active tab indicator -->
+              <div class="absolute bg-white py-0.5 w-24 top-9"></div>
+            </li>
             <!-- status -->
             <a href="./status.html" title="status">
               <li
@@ -88,15 +96,11 @@
               </li>
             </a>
             <!-- calls -->
-            <a href="./calls.html" title="calls">
-              <li
-                class="uppercase cursor-pointer font-medium text-lg text-slate-300"
-              >
-                calls
-              </li>
-            </a>
-            <!-- active tab indicator -->
-            <div class="absolute bg-white py-0.5 w-24 top-9 left-12"></div>
+            <li
+              class="uppercase cursor-pointer font-medium text-lg text-slate-300"
+            >
+              <a href="./calls.html" title="calls"> calls </a>
+            </li>
           </ol>
         </div>
       </div>
@@ -105,7 +109,7 @@
       <div class="relative max-w-md">
         <!-- chat-items 1 -->
         <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b-2 border-gray-400"
+          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
         >
           <!-- avatar -->
           <img class="w-20" src="./assets/images/avataaar_6.svg" alt="Avatar" />
@@ -117,7 +121,7 @@
             </div>
             <!-- time and msg count -->
             <div class="px-2 flex flex-col items-center">
-              <span class="text-green-600 font-medium text-lg">13:05</span>
+              <span class="text-green-600 font-medium text-lg">01:05 pm</span>
               <span class="rounded-full text-white bg-green-600 px-2 ml-1"
                 >1</span
               >
@@ -127,7 +131,7 @@
         <!-- chat-items 1 -->
         <!-- chat-items 2 -->
         <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b-2 border-gray-400"
+          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
         >
           <!-- avatar -->
           <img class="w-20" src="./assets/images/avataaar_1.svg" alt="Avatar" />
@@ -139,7 +143,7 @@
             </div>
             <!-- time and msg count -->
             <div class="px-2 flex flex-col items-center">
-              <span class="text-green-600 font-medium text-lg">11:00</span>
+              <span class="text-green-600 font-medium text-lg">11:00 am</span>
               <span class="rounded-full text-white bg-green-600 px-2 ml-1"
                 >5</span
               >
@@ -150,7 +154,7 @@
 
         <!-- chat item 3 -->
         <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b-2 border-gray-400"
+          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
         >
           <!-- avatar -->
           <img class="w-20" src="./assets/images/avataaar_4.svg" alt="Avatar" />
@@ -162,7 +166,7 @@
             </div>
             <!-- time and msg count -->
             <div class="px-2 flex flex-col items-center">
-              <span class="text-green-600 font-medium text-lg">10:00</span>
+              <span class="text-green-600 font-medium text-lg">10:00 am</span>
               <span class="rounded-full text-white bg-green-600 px-2 ml-1"
                 >1</span
               >
@@ -172,7 +176,29 @@
         <!-- chat item 3 -->
         <!-- chat item 4 -->
         <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b-2 border-gray-400"
+          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+        >
+          <!-- avatar -->
+          <img class="w-20" src="./assets/images/avataaar_3.svg" alt="Avatar" />
+          <div class="flex flex-1 justify-between">
+            <!-- Name and msg  -->
+            <div class="px-2">
+              <h5 class="font-medium text-lg">9123456789</h5>
+              <p class="text-slate-600">Im sasuka uchiha</p>
+            </div>
+            <!-- time and msg count -->
+            <div class="px-2 flex flex-col items-center">
+              <span class="text-green-600 font-medium text-lg">09:30 am</span>
+              <span class="rounded-full text-white bg-green-600 px-2 ml-1"
+                >1</span
+              >
+            </div>
+          </div>
+        </div>
+        <!-- chat item 4 -->
+        <!-- chat item 5 -->
+        <div
+          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
         >
           <!-- avatar -->
           <img class="w-20" src="./assets/images/avataaar_2.svg" alt="Avatar" />
@@ -185,37 +211,16 @@
               </p>
             </div>
             <!-- time and msg count -->
-            <div class="px-2 flex flex-col items-center">
-              <span class="text-slate-600 font-medium text-lg">10:00</span>
-              <span
-                class="rounded-full text-white bg-green-600 px-2 ml-1"
-              ></span>
-            </div>
-          </div>
-        </div>
-        <!-- chat item 4 -->
-        <!-- chat item 4 -->
-        <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b-2 border-gray-400"
-        >
-          <!-- avatar -->
-          <img class="w-20" src="./assets/images/avataaar_3.svg" alt="Avatar" />
-          <div class="flex flex-1 justify-between">
-            <!-- Name and msg  -->
-            <div class="px-2">
-              <h5 class="font-medium text-lg">9123456789</h5>
-              <p class="text-slate-600">Im sasuka uchiha</p>
-            </div>
-            <!-- time and msg count -->
-            <div class="px-2 flex flex-col items-center">
-              <span class="text-green-600 font-medium text-lg">09:30</span>
-              <span class="rounded-full text-white bg-green-600 px-2 ml-1"
-                >1</span
+            <div class="px-2 flex flex-col items-center flex-1">
+              <span class="text-slate-600 font-medium text-lg"
+                >10:00&nbsp;am</span
               >
+              <span class="rounded-full text-white bg-green-600 px-2 ml-1">
+              </span>
             </div>
           </div>
         </div>
-        <!-- chat item 4 -->
+        <!-- chat item 5 -->
         <!-- select contact icons  -->
         <div
           class="bg-emerald-800 hover:bg-green-700 cursor-pointer w-16 h-16 flex items-center justify-center rounded-full absolute bottom-2 right-5"

@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WhatsApp UI - Tailwind CSS</title>
+    <title>Calls - Tailwind CSS</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/WhatsApp-icon.png"
+      type="image/x-icon"
+    />
     <!-- Tailwind css output -->
     <link rel="stylesheet" href="./assets/css/output.css" />
   </head>
@@ -71,32 +76,28 @@
           </svg>
           <ol class="flex-1 flex justify-between px-4">
             <!-- chats -->
-            <a href="./index.html">
-              <li
-                class="uppercase cursor-pointer font-medium text-lg text-slate-300"
-              >
+            <li
+              class="uppercase cursor-pointer font-medium text-lg text-slate-300"
+            >
+              <a href="./index.html">
                 <span>chats</span>
                 <span class="rounded-full bg-white text-emerald-800 px-2 ml-1"
                   >4</span
                 >
-              </li>
-            </a>
+              </a>
+            </li>
             <!-- status -->
-            <a href="./status.html" title="status">
-              <li
-                class="uppercase cursor-pointer font-medium text-lg text-slate-300"
-              >
-                status
-              </li>
-            </a>
+            <li
+              class="uppercase cursor-pointer font-medium text-lg text-slate-300"
+            >
+              <a href="./status.html" title="status"> status </a>
+            </li>
             <!-- calls -->
-            <a href="./calls.html" title="calls">
-              <li class="uppercase cursor-pointer font-medium text-lg">
-                calls
-              </li>
-            </a>
-            <!-- active tab indicator -->
-            <div class="absolute bg-white py-0.5 w-24 top-9 right-2"></div>
+            <li class="uppercase cursor-pointer font-medium text-lg relative">
+              <a href="./calls.html" title="calls"> calls </a>
+              <!-- active tab indicator -->
+              <div class="absolute bg-white py-0.5 w-full h-1 top-9"></div>
+            </li>
           </ol>
         </div>
       </div>
