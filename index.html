@@ -17,230 +17,289 @@
       WhatsApp UI using Tailwind
     </h1>
     <!-- chat ui  -->
-    <div class="whatsapp-chat-ui m-auto max-w-md">
-      <!-- header  -->
-      <div class="bg-emerald-800">
-        <!-- logo and icons -->
-        <div class="text-white px-4 py-5 flex justify-between">
-          <h2 class="text-xl font-medium cursor-pointer">WhatsApp</h2>
-          <!-- icons -->
-          <div class="flex space-x-3">
-            <!-- search icon -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              class="cursor-pointer"
-              title="search"
-            >
-              <path
-                fill="currentColor"
-                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
-              />
-            </svg>
-            <!-- search icon -->
+    <main class="m-auto max-w-md">
+      <section>
+        <!-- header  -->
+        <div class="bg-emerald-800">
+          <!-- logo and icons -->
+          <div class="text-white px-4 py-9 flex justify-between">
+            <h2 class="text-xl font-medium cursor-pointer">WhatsApp</h2>
+            <!-- icons -->
+            <div class="flex space-x-3">
+              <!-- search icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                class="cursor-pointer"
+                title="search"
+              >
+                <path
+                  fill="currentColor"
+                  d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
+                />
+              </svg>
+              <!-- search icon -->
 
-            <!-- triple icons -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              class="cursor-pointer"
-              title="settings"
-            >
-              <path
-                fill="currentColor"
-                d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm0-6c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm0 12c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2z"
-              />
-            </svg>
-            <!-- triple icons -->
+              <!-- triple icons -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                class="cursor-pointer"
+                title="settings"
+              >
+                <path
+                  fill="currentColor"
+                  d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm0-6c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm0 12c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2z"
+                />
+              </svg>
+              <!-- triple icons -->
+            </div>
+            <!-- icons -->
           </div>
-          <!-- icons -->
-        </div>
-        <!-- menus -->
-        <div class="text-white px-4 flex justify-center pb-3 relative">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            class="cursor-pointer"
-          >
-            <circle cx="12" cy="12" r="3.2" fill="currentColor" />
-            <path
-              fill="currentColor"
-              d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5s5 2.24 5 5s-2.24 5-5 5z"
-            />
-          </svg>
-          <ol class="flex-1 flex justify-between px-4">
-            <!-- chats -->
-            <li class="uppercase cursor-pointer font-medium text-lg relative">
-              <a href="./index.html">
-                <span>chats</span>
-                <span class="rounded-full bg-white text-emerald-800 px-2 ml-1"
-                  >4</span
-                >
-              </a>
+          <!-- menus -->
+          <div class="text-white px-4 flex justify-center pb-3 relative">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="cursor-pointer"
+            >
+              <circle cx="12" cy="12" r="3.2" fill="currentColor" />
+              <path
+                fill="currentColor"
+                d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5s5 2.24 5 5s-2.24 5-5 5z"
+              />
+            </svg>
+            <ol class="flex-1 flex justify-between px-4">
+              <!-- chats -->
+              <li class="uppercase cursor-pointer font-medium text-lg relative">
+                <a href="./index.html">
+                  <span>chats</span>
+                  <span class="rounded-full bg-white text-emerald-800 px-2 ml-1"
+                    >4</span
+                  >
+                </a>
 
-              <!-- active tab indicator -->
-              <div class="absolute bg-white py-0.5 w-24 top-9"></div>
-            </li>
-            <!-- status -->
-            <a href="./status.html" title="status">
+                <!-- active tab indicator -->
+                <div class="absolute bg-white py-0.5 w-24 top-10"></div>
+              </li>
+              <!-- status -->
               <li
                 class="uppercase cursor-pointer font-medium text-lg text-slate-300"
               >
-                status
+                <a
+                  href="./status.html"
+                  title="status"
+                  class="flex items-center"
+                >
+                  <span> status </span>
+                  <span class="rounded-full text-slate-300 p-0 m-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32px"
+                      height="32px"
+                      viewBox="0 0 256 256"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M156 128a28 28 0 1 1-28-28a28 28 0 0 1 28 28Z"
+                      />
+                    </svg>
+                  </span>
+                </a>
               </li>
-            </a>
-            <!-- calls -->
-            <li
-              class="uppercase cursor-pointer font-medium text-lg text-slate-300"
-            >
-              <a href="./calls.html" title="calls"> calls </a>
-            </li>
-          </ol>
-        </div>
-      </div>
-      <!-- header  -->
-      <!-- body -->
-      <div class="relative max-w-md">
-        <!-- chat-items 1 -->
-        <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
-        >
-          <!-- avatar -->
-          <img class="w-20" src="./assets/images/avataaar_6.svg" alt="Avatar" />
-          <div class="flex flex-1 justify-between">
-            <!-- Name and msg  -->
-            <div class="px-2">
-              <h5 class="font-medium text-lg">Sharif</h5>
-              <p class="text-slate-600">Good morning</p>
-            </div>
-            <!-- time and msg count -->
-            <div class="px-2 flex flex-col items-center">
-              <span class="text-green-600 font-medium text-lg">01:05 pm</span>
-              <span class="rounded-full text-white bg-green-600 px-2 ml-1"
-                >1</span
+              <!-- calls -->
+              <li
+                class="uppercase cursor-pointer font-medium text-lg text-slate-300"
               >
-            </div>
+                <a href="./calls.html" title="calls"> calls </a>
+              </li>
+            </ol>
           </div>
         </div>
-        <!-- chat-items 1 -->
-        <!-- chat-items 2 -->
-        <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
-        >
-          <!-- avatar -->
-          <img class="w-20" src="./assets/images/avataaar_1.svg" alt="Avatar" />
-          <div class="flex flex-1 justify-between">
-            <!-- Name and msg  -->
-            <div class="px-2">
-              <h5 class="font-medium text-lg">Bhavani</h5>
-              <p class="text-slate-600">Im waiting..</p>
-            </div>
-            <!-- time and msg count -->
-            <div class="px-2 flex flex-col items-center">
-              <span class="text-green-600 font-medium text-lg">11:00 am</span>
-              <span class="rounded-full text-white bg-green-600 px-2 ml-1"
-                >5</span
-              >
-            </div>
-          </div>
-        </div>
-        <!-- chat-items 2 -->
-
-        <!-- chat item 3 -->
-        <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
-        >
-          <!-- avatar -->
-          <img class="w-20" src="./assets/images/avataaar_4.svg" alt="Avatar" />
-          <div class="flex flex-1 justify-between">
-            <!-- Name and msg  -->
-            <div class="px-2">
-              <h5 class="font-medium text-lg">Vikram</h5>
-              <p class="text-slate-600">Code RED!</p>
-            </div>
-            <!-- time and msg count -->
-            <div class="px-2 flex flex-col items-center">
-              <span class="text-green-600 font-medium text-lg">10:00 am</span>
-              <span class="rounded-full text-white bg-green-600 px-2 ml-1"
-                >1</span
-              >
-            </div>
-          </div>
-        </div>
-        <!-- chat item 3 -->
-        <!-- chat item 4 -->
-        <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
-        >
-          <!-- avatar -->
-          <img class="w-20" src="./assets/images/avataaar_3.svg" alt="Avatar" />
-          <div class="flex flex-1 justify-between">
-            <!-- Name and msg  -->
-            <div class="px-2">
-              <h5 class="font-medium text-lg">9123456789</h5>
-              <p class="text-slate-600">Im sasuka uchiha</p>
-            </div>
-            <!-- time and msg count -->
-            <div class="px-2 flex flex-col items-center">
-              <span class="text-green-600 font-medium text-lg">09:30 am</span>
-              <span class="rounded-full text-white bg-green-600 px-2 ml-1"
-                >1</span
-              >
-            </div>
-          </div>
-        </div>
-        <!-- chat item 4 -->
-        <!-- chat item 5 -->
-        <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
-        >
-          <!-- avatar -->
-          <img class="w-20" src="./assets/images/avataaar_2.svg" alt="Avatar" />
-          <div class="flex flex-1 justify-between">
-            <!-- Name and msg  -->
-            <div class="px-2">
-              <h5 class="font-medium text-lg">Deva</h5>
-              <p class="text-slate-600">
-                Yara Namburathunae Therlla Daas Anna.
-              </p>
-            </div>
-            <!-- time and msg count -->
-            <div class="px-2 flex flex-col items-center flex-1">
-              <span class="text-slate-600 font-medium text-lg"
-                >10:00&nbsp;am</span
-              >
-              <span class="rounded-full text-white bg-green-600 px-2 ml-1">
-              </span>
-            </div>
-          </div>
-        </div>
-        <!-- chat item 5 -->
-        <!-- select contact icons  -->
-        <div
-          class="bg-emerald-800 hover:bg-green-700 cursor-pointer w-16 h-16 flex items-center justify-center rounded-full absolute bottom-2 right-5"
-        >
-          <svg
-            class="text-white"
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
+        <!-- header  -->
+        <!-- body -->
+        <div class="relative max-w-md">
+          <!-- chat-items 1 -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
           >
-            <path
-              fill="currentColor"
-              d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-3 12H7c-.55 0-1-.45-1-1s.45-1 1-1h10c.55 0 1 .45 1 1s-.45 1-1 1zm0-3H7c-.55 0-1-.45-1-1s.45-1 1-1h10c.55 0 1 .45 1 1s-.45 1-1 1zm0-3H7c-.55 0-1-.45-1-1s.45-1 1-1h10c.55 0 1 .45 1 1s-.45 1-1 1z"
+            <!-- avatar -->
+            <img
+              class="w-20"
+              src="./assets/images/avataaar_6.svg"
+              alt="Avatar"
             />
-          </svg>
+            <div class="flex flex-1 justify-between">
+              <!-- Name and msg  -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg">Sharif</h5>
+                <p class="text-slate-600">Good morning</p>
+              </div>
+              <!-- time and msg count -->
+              <div class="px-2 flex flex-col items-center">
+                <span class="text-green-600 font-medium text-lg">01:05 pm</span>
+                <span class="rounded-full text-white bg-green-600 px-2 ml-1"
+                  >1</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- chat-items 1 -->
+          <!-- chat-items 2 -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20"
+              src="./assets/images/avataaar_1.svg"
+              alt="Avatar"
+            />
+            <div class="flex flex-1 justify-between">
+              <!-- Name and msg  -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg">Bhavani</h5>
+                <p class="text-slate-600">Im waiting..</p>
+              </div>
+              <!-- time and msg count -->
+              <div class="px-2 flex flex-col items-center">
+                <span class="text-green-600 font-medium text-lg">11:00 am</span>
+                <span class="rounded-full text-white bg-green-600 px-2 ml-1"
+                  >5</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- chat-items 2 -->
+
+          <!-- chat item 3 -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20"
+              src="./assets/images/avataaar_4.svg"
+              alt="Avatar"
+            />
+            <div class="flex flex-1 justify-between">
+              <!-- Name and msg  -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg">Vikram</h5>
+                <p class="text-slate-600">Code RED!</p>
+              </div>
+              <!-- time and msg count -->
+              <div class="px-2 flex flex-col items-center">
+                <span class="text-green-600 font-medium text-lg">10:00 am</span>
+                <span class="rounded-full text-white bg-green-600 px-2 ml-1"
+                  >1</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- chat item 3 -->
+          <!-- chat item 4 -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20"
+              src="./assets/images/avataaar_3.svg"
+              alt="Avatar"
+            />
+            <div class="flex flex-1 justify-between">
+              <!-- Name and msg  -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg">9123456789</h5>
+                <p class="text-slate-600">Im sasuka uchiha</p>
+              </div>
+              <!-- time and msg count -->
+              <div class="px-2 flex flex-col items-center">
+                <span class="text-green-600 font-medium text-lg">09:30 am</span>
+                <span class="rounded-full text-white bg-green-600 px-2 ml-1"
+                  >1</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- chat item 4 -->
+          <!-- chat item 5 -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20"
+              src="./assets/images/avataaar_2.svg"
+              alt="Avatar"
+            />
+            <div class="flex flex-1 justify-between">
+              <!-- Name and msg  -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg">Deva</h5>
+                <p class="text-slate-600">
+                  Yara Namburathunae Therlla Daas Anna.
+                </p>
+              </div>
+              <!-- time and msg count -->
+              <div class="px-2 flex flex-col items-center flex-1">
+                <span class="text-slate-600 font-medium text-lg"
+                  >10:00&nbsp;am</span
+                >
+                <span class="rounded-full text-white bg-green-600 px-2 ml-1">
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- chat item 5 -->
+          <!-- select contact icons  -->
+          <div
+            class="bg-emerald-800 hover:bg-green-700 cursor-pointer w-16 h-16 flex items-center justify-center rounded-full absolute bottom-2 right-5"
+          >
+            <svg
+              class="text-white"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-3 12H7c-.55 0-1-.45-1-1s.45-1 1-1h10c.55 0 1 .45 1 1s-.45 1-1 1zm0-3H7c-.55 0-1-.45-1-1s.45-1 1-1h10c.55 0 1 .45 1 1s-.45 1-1 1zm0-3H7c-.55 0-1-.45-1-1s.45-1 1-1h10c.55 0 1 .45 1 1s-.45 1-1 1z"
+              />
+            </svg>
+          </div>
+          <!-- select contact icons  -->
         </div>
-      </div>
-      <!-- body -->
-    </div>
+        <!-- body -->
+      </section>
+
+      <footer
+        class="py-2 m-auto max-w-md bg-white flex justify-center gap-2 items-center font-medium text-sm"
+      >
+        <svg
+          class="text-emerald-800"
+          xmlns="http://www.w3.org/2000/svg"
+          width="14px"
+          height="14px"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1c1.71 0 3.1 1.39 3.1 3.1v2z"
+          />
+        </svg>
+        <span> Your Chats are </span>
+        <a href="#" class="text-emerald-800">end-to-end encrypted</a>
+      </footer>
+    </main>
     <!-- chat ui  -->
   </body>
 </html>
