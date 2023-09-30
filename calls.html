@@ -88,24 +88,23 @@
                   >
                 </a>
               </li>
-              <!-- status -->
 
               <!-- status -->
-              <li class="uppercase cursor-pointer font-medium text-lg relative">
+              <li
+                class="uppercase cursor-pointer font-medium text-lg text-slate-300"
+              >
                 <a
                   href="./status.html"
                   title="status"
                   class="flex items-center"
                 >
                   <span> status </span>
-                  <!-- active tab indicator -->
-                  <span>
+                  <span class="rounded-full text-slate-300 p-0 m-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="32px"
                       height="32px"
                       viewBox="0 0 256 256"
-                      class="text-emerald-800"
                     >
                       <path
                         fill="currentColor"
@@ -117,13 +116,350 @@
               </li>
               <!-- calls -->
               <li class="uppercase cursor-pointer font-medium text-lg relative">
-                <a href="./calls.html" title="calls"> calls </a>
+                <a href="./calls.html" title="calls">
+                  <span>Calls</span>
+                  <span
+                    class="rounded-full bg-emerald-800 text-emerald-800 px-2 ml-1"
+                    >1</span
+                  >
+                </a>
                 <!-- active tab indicator -->
-                <div class="absolute bg-white py-0.5 w-full h-1 top-10"></div>
+                <div class="absolute bg-white py-0.5 w-4/5 h-1 top-10"></div>
               </li>
             </ol>
           </div>
+          <!-- menus -->
         </div>
+        <!-- header  -->
+        <!-- body -->
+        <div class="relative max-w-md">
+          <!-- create link  -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <div
+              class="w-16 h-16 text-white bg-emerald-800 rounded-full -rotate-45 flex justify-center items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"
+                />
+              </svg>
+            </div>
+            <div class="flex flex-1 justify-between">
+              <!-- Name and msg  -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg">Create Call Link</h5>
+                <p class="text-slate-600">
+                  Share a link for your WhatsApp call
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- create link  -->
+          <div class="bg-slate-200 px-4">
+            <p class="py-2 uppercase">Recent Calls</p>
+          </div>
+
+          <!-- call-item 1  -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20"
+              src="./assets/images/avataaar_1.svg"
+              alt="Avatar"
+            />
+            <div class="flex flex-1 justify-between items-center">
+              <!-- Name and time  -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg text-red-600">
+                  Bhavani ( Master ) (2)
+                </h5>
+
+                <p class="text-slate-600 flex items-center gap-1">
+                  <span class="text-sm text-red-600">
+                    <svg
+                      class="rotate-90"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 256 256"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M200 88v104a8 8 0 0 1-8 8H88a8 8 0 0 1 0-16h84.69L58.34 69.66a8 8 0 0 1 11.32-11.32L184 172.69V88a8 8 0 0 1 16 0Z"
+                      />
+                    </svg>
+                  </span>
+                  <span> Today, 7:18 PM </span>
+                </p>
+              </div>
+              <!-- Name and time  -->
+              <!-- Call icon  -->
+              <div class="px-2">
+                <span class="rounded-full text-green-600 px-2 ml-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M19.95 21q-3.125 0-6.175-1.363t-5.55-3.862q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.338t.712-.062l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <!-- Call icon  -->
+            </div>
+          </div>
+          <!-- call-item 1 -->
+
+          <!-- call item 2-->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20"
+              src="./assets/images/avataaar_4.svg"
+              alt="Avatar"
+            />
+            <div class="flex flex-1 justify-between items-center">
+              <!-- Name and time -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg">Vikram</h5>
+
+                <p class="text-slate-600 flex items-center gap-1">
+                  <span class="text-sm text-green-600">
+                    <svg
+                      class="-rotate-90"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 256 256"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M200 88v104a8 8 0 0 1-8 8H88a8 8 0 0 1 0-16h84.69L58.34 69.66a8 8 0 0 1 11.32-11.32L184 172.69V88a8 8 0 0 1 16 0Z"
+                      />
+                    </svg>
+                  </span>
+                  <span> September 27, 8:40 PM </span>
+                </p>
+              </div>
+              <!-- Call icon  -->
+              <div class="px-2">
+                <span class="rounded-full text-green-600 px-2 ml-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h12q.825 0 1.413.588T18 6v4.5l3.15-3.15q.225-.225.537-.113T22 7.7v8.6q0 .35-.313.463t-.537-.113L18 13.5V18q0 .825-.588 1.413T16 20H4Z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <!-- Call icon  -->
+            </div>
+          </div>
+          <!-- call item 2 -->
+
+          <!-- call item 3 -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20"
+              src="./assets/images/avataaar_2.svg"
+              alt="Avatar"
+            />
+            <div class="flex flex-1 justify-between items-center">
+              <!-- Name and time  -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg">Deva ( Ayan )</h5>
+
+                <p class="text-slate-600 flex items-center gap-1">
+                  <span class="text-sm text-green-600">
+                    <svg
+                      class="rotate-90"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 256 256"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M200 88v104a8 8 0 0 1-8 8H88a8 8 0 0 1 0-16h84.69L58.34 69.66a8 8 0 0 1 11.32-11.32L184 172.69V88a8 8 0 0 1 16 0Z"
+                      />
+                    </svg>
+                  </span>
+                  <span> September 10, 3:18 PM </span>
+                </p>
+              </div>
+              <!-- Call icon  -->
+              <div class="px-2">
+                <span class="rounded-full text-green-600 px-2 ml-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M19.95 21q-3.125 0-6.175-1.363t-5.55-3.862q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.338t.712-.062l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <!-- Call icon  -->
+            </div>
+          </div>
+          <!-- call item 3 -->
+
+          <!-- call item 4 -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20 rounded-full"
+              src="./assets/images/avataaar__10.svg"
+              alt="Avatar"
+            />
+            <div class="flex flex-1 justify-between items-center">
+              <!-- Name and time  -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg">Rolex ( Vikram )</h5>
+
+                <p class="text-slate-600 flex items-center gap-1">
+                  <span class="text-sm text-green-600">
+                    <svg
+                      class="rotate-90"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 256 256"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M200 88v104a8 8 0 0 1-8 8H88a8 8 0 0 1 0-16h84.69L58.34 69.66a8 8 0 0 1 11.32-11.32L184 172.69V88a8 8 0 0 1 16 0Z"
+                      />
+                    </svg>
+                  </span>
+                  <span> September 1, 12:10 PM </span>
+                </p>
+              </div>
+              <!-- Call icon  -->
+              <div class="px-2">
+                <span class="rounded-full text-green-600 px-2 ml-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h12q.825 0 1.413.588T18 6v4.5l3.15-3.15q.225-.225.537-.113T22 7.7v8.6q0 .35-.313.463t-.537-.113L18 13.5V18q0 .825-.588 1.413T16 20H4Z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <!-- Call icon  -->
+            </div>
+          </div>
+          <!-- call item 4 -->
+
+          <!-- call item 4 -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20 rounded-full"
+              src="./assets/images/avataaar__10.svg"
+              alt="Avatar"
+            />
+            <div class="flex flex-1 justify-between items-center">
+              <!-- Name and time  -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg">Amar ( Vikram )</h5>
+
+                <p class="text-slate-600 flex items-center gap-1">
+                  <span class="text-sm text-green-600">
+                    <svg
+                      class="-rotate-90"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 256 256"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M200 88v104a8 8 0 0 1-8 8H88a8 8 0 0 1 0-16h84.69L58.34 69.66a8 8 0 0 1 11.32-11.32L184 172.69V88a8 8 0 0 1 16 0Z"
+                      />
+                    </svg>
+                  </span>
+                  <span> August 28, 12:10 PM </span>
+                </p>
+              </div>
+              <!-- Call icon  -->
+              <div class="px-2">
+                <span class="rounded-full text-green-600 px-2 ml-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h12q.825 0 1.413.588T18 6v4.5l3.15-3.15q.225-.225.537-.113T22 7.7v8.6q0 .35-.313.463t-.537-.113L18 13.5V18q0 .825-.588 1.413T16 20H4Z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <!-- Call icon  -->
+            </div>
+          </div>
+          <!-- call item 4 -->
+
+          <!-- select contact icons  -->
+          <div
+            class="bg-emerald-800 hover:bg-green-700 cursor-pointer w-16 h-16 flex items-center justify-center rounded-full absolute bottom-24 right-5"
+          >
+            <svg
+              class="text-white"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M19.95 21q-3.125 0-6.175-1.363t-5.55-3.862q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.338t.712-.062l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z"
+              />
+            </svg>
+          </div>
+          <!-- select contact icons  -->
+        </div>
+        <!-- body -->
       </section>
     </main>
     <!-- call ui  -->
