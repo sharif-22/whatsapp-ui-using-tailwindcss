@@ -17,113 +17,31 @@
       WhatsApp UI using Tailwind
     </h1>
     <!-- Status ui  -->
-    <div class="whatsapp-chat-ui m-auto max-w-md">
-      <!-- header  -->
-      <div class="bg-emerald-800">
-        <!-- logo and icons -->
-        <div class="text-white px-4 py-5 flex justify-between">
-          <h2 class="text-xl font-medium cursor-pointer">WhatsApp</h2>
-          <!-- icons -->
-          <div class="flex space-x-3">
-            <!-- search icon -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              class="cursor-pointer"
-              title="search"
-            >
-              <path
-                fill="currentColor"
-                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
-              />
-            </svg>
-            <!-- search icon -->
+    <main>
+      <section class="m-auto max-w-md">
+        <!-- header  -->
+        <div class="bg-emerald-800">
+          <!-- logo and icons -->
+          <div class="text-white px-4 py-9 flex justify-between">
+            <h2 class="text-xl font-medium cursor-pointer">WhatsApp</h2>
+            <!-- icons -->
+            <div class="flex space-x-3">
+              <!-- search icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                class="cursor-pointer"
+                title="search"
+              >
+                <path
+                  fill="currentColor"
+                  d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
+                />
+              </svg>
+              <!-- search icon -->
 
-            <!-- triple icons -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              class="cursor-pointer"
-              title="settings"
-            >
-              <path
-                fill="currentColor"
-                d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm0-6c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm0 12c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2z"
-              />
-            </svg>
-            <!-- triple icons -->
-          </div>
-          <!-- icons -->
-        </div>
-        <!-- menus -->
-        <div class="text-white px-4 flex justify-center pb-3 relative">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            class="cursor-pointer"
-          >
-            <circle cx="12" cy="12" r="3.2" fill="currentColor" />
-            <path
-              fill="currentColor"
-              d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5s5 2.24 5 5s-2.24 5-5 5z"
-            />
-          </svg>
-          <ol class="flex-1 flex justify-between px-4">
-            <!-- chats -->
-            <li
-              class="uppercase cursor-pointer font-medium text-lg text-slate-300"
-            >
-              <a href="./index.html">
-                <span>chats</span>
-                <span class="rounded-full bg-white text-emerald-800 px-2 ml-1"
-                  >4</span
-                >
-              </a>
-            </li>
-            <!-- status -->
-            <li class="uppercase cursor-pointer font-medium text-lg relative">
-              <a href="./status.html" title="status">
-                status
-                <!-- active tab indicator -->
-              </a>
-              <div class="absolute bg-white py-0.5 w-full h-1 top-9"></div>
-            </li>
-            <!-- calls -->
-            <li
-              class="uppercase cursor-pointer font-medium text-lg text-slate-300"
-            >
-              <a href="./calls.html" title="calls"> calls </a>
-            </li>
-          </ol>
-        </div>
-      </div>
-      <!-- header  -->
-      <!-- body -->
-      <div class="relative max-w-md">
-        <!-- my-status-items  -->
-        <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
-        >
-          <!-- avatar -->
-          <div class="rounded-full border-2 border-slate-200 p-0.5">
-            <img
-              class="w-20 rounded-full"
-              src="./assets/images/avataaar_7.svg"
-              alt="Avatar"
-            />
-          </div>
-          <div class="flex flex-1 justify-between">
-            <div class="px-2">
-              <h5 class="font-medium text-lg">My Status</h5>
-              <p class="text-slate-600 text-sm">Today, 9:15 am</p>
-            </div>
-            <div class="px-2 flex items-center rotate-90">
               <!-- triple icons -->
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -140,143 +58,258 @@
               </svg>
               <!-- triple icons -->
             </div>
+            <!-- icons -->
           </div>
-        </div>
-        <!-- my-status-items  -->
-
-        <!-- Recent updates -->
-
-        <div class="bg-slate-200 px-4">
-          <p class="py-2 uppercase">Recent updates</p>
-        </div>
-
-        <!-- status-item  -->
-        <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
-        >
-          <!-- avatar -->
-          <img
-            class="w-20 rounded-full border-2 border-emerald-600 border-dotted p-0.5"
-            src="./assets/images/avataaar__11.svg"
-            alt="Avatar"
-          />
-          <!-- Name and msg  -->
-          <div class="px-2">
-            <h5 class="font-medium text-lg">Rockey</h5>
-            <p class="text-slate-600 text-sm">2 minutes ago 12:33 pm</p>
-          </div>
-        </div>
-        <!-- status-item  -->
-
-        <!-- status-item  -->
-        <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
-        >
-          <!-- avatar -->
-          <img
-            class="w-20 rounded-full border-2 border-emerald-600 p-0.5"
-            src="./assets/images/avataaar_8.svg"
-            alt="Avatar"
-          />
-          <!-- Name and msg  -->
-          <div class="px-2">
-            <h5 class="font-medium text-lg">Bhavani</h5>
-            <p class="text-slate-600 text-sm">22 minutes ago 12:11 pm</p>
-          </div>
-        </div>
-        <!-- status-item  -->
-
-        <!-- Recent updates -->
-
-        <!-- viewed updates -->
-
-        <div class="bg-slate-200 px-4">
-          <p class="py-2 uppercase">viewed updates</p>
-        </div>
-
-        <!-- status item  -->
-        <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
-        >
-          <!-- avatar -->
-          <img
-            class="w-20 rounded-full border-2 border-slate-200 p-0.5"
-            src="./assets/images/avataaar_9.svg"
-            alt="Avatar"
-          />
-          <div class="flex flex-1 justify-between">
-            <!-- Name and msg  -->
-            <div class="px-2">
-              <h5 class="font-medium text-lg">JD</h5>
-              <p class="text-slate-600 text-sm">Today, 7:14 am</p>
-            </div>
-          </div>
-        </div>
-        <!-- status item  -->
-        <!-- status item  -->
-        <div
-          class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
-        >
-          <!-- avatar -->
-          <img
-            class="w-20 rounded-full border-2 border-slate-200 p-0.5"
-            src="./assets/images/avataaar__10.svg"
-            alt="Avatar"
-          />
-          <div class="flex flex-1 justify-between">
-            <!-- Name and msg  -->
-            <div class="px-2">
-              <h5 class="font-medium text-lg">Vetri</h5>
-              <p class="text-slate-600 text-sm">Yesterday, 10:31 pm</p>
-            </div>
-          </div>
-        </div>
-        <!-- status item  -->
-
-        <!-- viewed updates -->
-
-        <!-- Add new icons  -->
-        <div
-          class="absolute bottom-2 right-5 flex justify-center items-center flex-col gap-4"
-        >
-          <!--add text  -->
-          <div
-            class="bg-emerald-800 hover:bg-green-700 cursor-pointer w-16 h-16 flex items-center justify-center rounded-full"
-          >
+          <!-- menus -->
+          <div class="text-white px-4 flex justify-center pb-3 relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
+              width="24"
+              height="24"
               viewBox="0 0 24 24"
-              class="text-white"
+              class="cursor-pointer"
             >
+              <circle cx="12" cy="12" r="3.2" fill="currentColor" />
               <path
                 fill="currentColor"
-                d="m19.3 8.925l-4.25-4.2L17.875 1.9L22.1 6.125l-2.8 2.8ZM3 21v-4.25l10.6-10.6l4.25 4.25L7.25 21H3Z"
+                d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5s5 2.24 5 5s-2.24 5-5 5z"
               />
             </svg>
-          </div>
-          <!-- add media  -->
-          <div
-            class="bg-emerald-800 hover:bg-green-700 cursor-pointer w-16 h-16 flex items-center justify-center rounded-full"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="48"
-              height="48"
-              viewBox="0 0 24 24"
-              class="text-white"
-            >
-              <path
-                fill="currentColor"
-                d="M11 13v3q0 .425.288.713T12 17q.425 0 .713-.288T13 16v-3h3q.425 0 .713-.288T17 12q0-.425-.288-.713T16 11h-3V8q0-.425-.288-.713T12 7q-.425 0-.713.288T11 8v3H8q-.425 0-.713.288T7 12q0 .425.288.713T8 13h3Zm1 9q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22Zm0-2q3.35 0 5.675-2.325T20 12q0-3.35-2.325-5.675T12 4Q8.65 4 6.325 6.325T4 12q0 3.35 2.325 5.675T12 20Zm0-8Z"
-              />
-            </svg>
+            <ol class="flex-1 flex justify-between px-4">
+              <!-- chats -->
+              <li
+                class="uppercase cursor-pointer font-medium text-lg text-slate-300"
+              >
+                <a href="./index.html">
+                  <span>chats</span>
+                  <span
+                    class="rounded-full bg-slate-300 text-emerald-800 px-2 ml-1"
+                    >4</span
+                  >
+                </a>
+              </li>
+              <!-- status -->
+              <li class="uppercase cursor-pointer font-medium text-lg relative">
+                <a
+                  href="./status.html"
+                  title="status"
+                  class="flex items-center"
+                >
+                  <span> status </span>
+                  <!-- active tab indicator -->
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32px"
+                      height="32px"
+                      viewBox="0 0 256 256"
+                      class="text-emerald-800"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M156 128a28 28 0 1 1-28-28a28 28 0 0 1 28 28Z"
+                      />
+                    </svg>
+                  </span>
+                </a>
+                <div class="absolute bg-white py-0.5 w-4/5 h-1 top-10"></div>
+              </li>
+              <!-- calls -->
+              <li
+                class="uppercase cursor-pointer font-medium text-lg text-slate-300"
+              >
+                <a href="./calls.html" title="calls"> calls </a>
+              </li>
+            </ol>
           </div>
         </div>
-        <!-- Add new icons  -->
-      </div>
-      <!-- body -->
-    </div>
+        <!-- header  -->
+        <!-- body -->
+        <div class="relative max-w-md">
+          <!-- my-status-items  -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <div class="rounded-full border-2 border-slate-200 p-0.5 relative">
+              <img
+                class="w-20 rounded-full"
+                src="./assets/images/avataaar_7.svg"
+                alt="Avatar"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                class="text-emerald-800 rounded-full bg-slate-200 absolute right-0 bottom-0"
+              >
+                <path
+                  fill="currentColor "
+                  d="M11 13v3q0 .425.288.713T12 17q.425 0 .713-.288T13 16v-3h3q.425 0 .713-.288T17 12q0-.425-.288-.713T16 11h-3V8q0-.425-.288-.713T12 7q-.425 0-.713.288T11 8v3H8q-.425 0-.713.288T7 12q0 .425.288.713T8 13h3Zm1 9q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22Z"
+                />
+              </svg>
+            </div>
+            <div class="flex flex-1 justify-between">
+              <div class="px-2">
+                <h5 class="font-medium text-lg">My Status</h5>
+                <p class="text-slate-600 text-sm">Today, 9:15 am</p>
+              </div>
+              <div class="px-2 flex items-center rotate-90">
+                <!-- triple icons -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  class="cursor-pointer"
+                  title="settings"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm0-6c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm0 12c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2z"
+                  />
+                </svg>
+                <!-- triple icons -->
+              </div>
+            </div>
+          </div>
+          <!-- my-status-items  -->
+
+          <!-- Recent updates -->
+
+          <div class="bg-slate-200 px-4">
+            <p class="py-2 uppercase">Recent updates</p>
+          </div>
+
+          <!-- status-item  -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20 rounded-full border-2 border-emerald-600 border-dotted p-0.5"
+              src="./assets/images/avataaar__11.svg"
+              alt="Avatar"
+            />
+            <!-- Name and msg  -->
+            <div class="px-2">
+              <h5 class="font-medium text-lg">Rockey</h5>
+              <p class="text-slate-600 text-sm">2 minutes ago 12:33 pm</p>
+            </div>
+          </div>
+          <!-- status-item  -->
+
+          <!-- status-item  -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20 rounded-full border-2 border-emerald-600 p-0.5"
+              src="./assets/images/avataaar_8.svg"
+              alt="Avatar"
+            />
+            <!-- Name and msg  -->
+            <div class="px-2">
+              <h5 class="font-medium text-lg">Bhavani</h5>
+              <p class="text-slate-600 text-sm">22 minutes ago 12:11 pm</p>
+            </div>
+          </div>
+          <!-- status-item  -->
+
+          <!-- Recent updates -->
+
+          <!-- viewed updates -->
+
+          <div class="bg-slate-200 px-4">
+            <p class="py-2 uppercase">viewed updates</p>
+          </div>
+
+          <!-- status item  -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20 rounded-full border-2 border-slate-200 p-0.5"
+              src="./assets/images/avataaar_9.svg"
+              alt="Avatar"
+            />
+            <div class="flex flex-1 justify-between">
+              <!-- Name and msg  -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg">JD</h5>
+                <p class="text-slate-600 text-sm">Today, 7:14 am</p>
+              </div>
+            </div>
+          </div>
+          <!-- status item  -->
+          <!-- status item  -->
+          <div
+            class="bg-white p-4 hover:bg-slate-100 cursor-pointer flex items-center border-b"
+          >
+            <!-- avatar -->
+            <img
+              class="w-20 rounded-full border-2 border-slate-200 p-0.5"
+              src="./assets/images/avataaar__10.svg"
+              alt="Avatar"
+            />
+            <div class="flex flex-1 justify-between">
+              <!-- Name and msg  -->
+              <div class="px-2">
+                <h5 class="font-medium text-lg">Vetri</h5>
+                <p class="text-slate-600 text-sm">Yesterday, 10:31 pm</p>
+              </div>
+            </div>
+          </div>
+          <!-- status item  -->
+
+          <!-- viewed updates -->
+
+          <!-- Add new icons  -->
+          <div
+            class="absolute bottom-2 right-5 flex justify-center items-center flex-col gap-4"
+          >
+            <!--add text  -->
+            <div
+              class="bg-emerald-800 hover:bg-green-700 cursor-pointer w-16 h-16 flex items-center justify-center rounded-full"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                class="text-white"
+              >
+                <path
+                  fill="currentColor"
+                  d="m19.3 8.925l-4.25-4.2L17.875 1.9L22.1 6.125l-2.8 2.8ZM3 21v-4.25l10.6-10.6l4.25 4.25L7.25 21H3Z"
+                />
+              </svg>
+            </div>
+            <!-- add media  -->
+            <div
+              class="bg-emerald-800 hover:bg-green-700 cursor-pointer w-16 h-16 flex items-center justify-center rounded-full"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                class="text-white"
+              >
+                <path
+                  fill="currentColor"
+                  d="M11 13v3q0 .425.288.713T12 17q.425 0 .713-.288T13 16v-3h3q.425 0 .713-.288T17 12q0-.425-.288-.713T16 11h-3V8q0-.425-.288-.713T12 7q-.425 0-.713.288T11 8v3H8q-.425 0-.713.288T7 12q0 .425.288.713T8 13h3Zm1 9q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22Zm0-2q3.35 0 5.675-2.325T20 12q0-3.35-2.325-5.675T12 4Q8.65 4 6.325 6.325T4 12q0 3.35 2.325 5.675T12 20Zm0-8Z"
+                />
+              </svg>
+            </div>
+          </div>
+          <!-- Add new icons  -->
+        </div>
+        <!-- body -->
+      </section>
+    </main>
   </body>
 </html>
