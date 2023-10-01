@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
     backgroundImage: {
-      "chat-bg": "url('/assets/images/chat-bg-2.jpg')",
+      "chat-bg": "url('/assets/images/chat-bg-2.png')",
     },
   },
   plugins: [],
