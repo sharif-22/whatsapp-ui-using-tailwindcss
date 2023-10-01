@@ -1933,7 +1933,7 @@ video {
 }
 
 .bg-chat-bg {
-  background-image: url('/assets/images/chat-bg-2.jpg');
+  background-image: url('./assets/images/chat-bg-2.jpg');
 }
 
 .decoration-slice {
