@@ -15,6 +15,11 @@
       .no-scroll::-webkit-scrollbar {
         display: none;
       }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scroll {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
     </style>
   </head>
   <body class="bg-emerald-300 mx-auto">
