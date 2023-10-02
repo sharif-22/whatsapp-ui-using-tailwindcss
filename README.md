@@ -55,4 +55,4 @@ This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.co
 
 ## Acknowledgments
 
-I used icons from [icones](https://icones.js.org/) and Created Avatar from [getavataaars](https://getavataaars.com/)
+I used icons from [icones](https://icones.js.org/), Created Avatar from [getavataaars](https://getavataaars.com/) and Background Image from [pxfuel](https://www.pxfuel.com/)
