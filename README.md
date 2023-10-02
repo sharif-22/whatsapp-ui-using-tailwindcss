@@ -59,6 +59,7 @@ I used icons from [icones](https://icones.js.org/), Created Avatar from [getavat
 
 I'm inspired by the scroll feature from
 
+<a href="https://github.com/mshajid" target="_blank">
 <div style="
     width: fit-content;
     display: flex;
@@ -68,6 +69,8 @@ I'm inspired by the scroll feature from
   ">
 
 <img src="https://avatars.githubusercontent.com/u/70450142?v=4" alt="mshajid" width="100" style="border-radius:50%;" />
-<a href="https://github.com/mshajid">Shajid Shafee</a>
-
+<p>
+Shajid Shafee
+</p>
 </div>
+</a>
