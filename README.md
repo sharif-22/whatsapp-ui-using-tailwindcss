@@ -56,3 +56,18 @@ This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.co
 ## Acknowledgments
 
 I used icons from [icones](https://icones.js.org/), Created Avatar from [getavataaars](https://getavataaars.com/) and Background Image from [pxfuel](https://www.pxfuel.com/)
+
+I'm inspired by the scroll feature from
+
+<div style="
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  ">
+
+<img src="https://avatars.githubusercontent.com/u/70450142?v=4" alt="mshajid" width="100" style="border-radius:50%;" />
+<a href="https://github.com/mshajid">Shajid Shafee</a>
+
+</div>
